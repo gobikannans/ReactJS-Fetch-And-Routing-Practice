@@ -1,0 +1,36 @@
+.blog-details-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title-detail {
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar-img {
+  margin-right: 10px;
+  height: 4vh;
+  border-radius: 20px;
+}
+
+.author-name {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.blog-img {
+  height: 50vh;
+  border-radius: 10px;
+}
